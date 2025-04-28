@@ -735,7 +735,7 @@ padding: 100px 0;
     pointer-events: none;
 }
 .comment-form {
-
+    margin-bottom: 24px;
 }
 
 .input-area {

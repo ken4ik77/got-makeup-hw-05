@@ -783,6 +783,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 .privacy-link {
     color:  #4d5ae5;
 }
+.user-label {
+    margin-bottom: 16px;
+}
 .checkbox-wrapper-input:checked+ .label-privacy .span-privacy {
     background-color: #404BBF;
     border: none;

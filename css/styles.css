@@ -735,7 +735,7 @@ padding: 100px 0;
     pointer-events: none;
 }
 .comment-form {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .input-area {
@@ -783,6 +783,9 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .privacy-link {
     color:  #4d5ae5;
+}
+.div-privasy{
+    margin-bottom: 24px;
 }
 .checkbox-wrapper-input:checked+ .label-privacy .span-privacy {
     background-color: #404BBF;

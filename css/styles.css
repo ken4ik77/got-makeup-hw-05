@@ -575,6 +575,7 @@ padding: 100px 0;
     color: #fff;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 .subscribe-svg {
     fill: #fff;
@@ -703,6 +704,8 @@ padding: 100px 0;
 .div-label-form {
     position: relative;
 }
+
+
 .div-label-form:has(input:hover) .svg-form,
 .div-label-form:has(input:focus) {
     fill: #4D5AE5;
@@ -749,6 +752,7 @@ padding: 100px 0;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 16px;
 }
 .span-privacy {
     display: inline-flex;
@@ -767,10 +771,13 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     align-items: center;
+}
+.checkbox-area {
+    margin-bottom: 24px;
 }
 .privacy-link {
     color:  #4d5ae5;

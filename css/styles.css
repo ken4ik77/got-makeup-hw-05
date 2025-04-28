@@ -534,6 +534,8 @@ align-items: baseline;
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+    width: 453px;
+    height: 80px;
 }
 .footer-p {
     font-weight: 500;

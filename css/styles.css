@@ -734,9 +734,6 @@ padding: 100px 0;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
 }
-.comment-form {
-    margin-bottom: 16px;
-}
 
 .input-area {
     width: 100%;
@@ -755,6 +752,7 @@ padding: 100px 0;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 16px;
 }
 .span-privacy {
     display: inline-flex;
@@ -777,15 +775,13 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     letter-spacing: 0.04em;
     color: #8E8F99;
     align-items: center;
+    margin-bottom: 24px;
 }
-.box-area {
+.checkbox-area {
     margin-bottom: 24px;
 }
 .privacy-link {
     color:  #4d5ae5;
-}
-.div-privasy{
-    margin-bottom: 24px;
 }
 .checkbox-wrapper-input:checked+ .label-privacy .span-privacy {
     background-color: #404BBF;

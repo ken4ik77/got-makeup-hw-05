@@ -675,11 +675,7 @@ padding: 100px 0;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 8px;
-    transition: color 150ms ease-in-out;
+
 }
 
 .form-backdrop {
@@ -763,7 +759,6 @@ width: 16px;
 height: 16px;
 border-radius: 2px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
@@ -778,7 +773,6 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     letter-spacing: 0.04em;
     color: #8E8F99;
     align-items: center;
-    margin-bottom: 24px;
 }
 .checkbox-area {
     margin-bottom: 24px;
